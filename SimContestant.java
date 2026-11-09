@@ -20,6 +20,6 @@ public class SimContestant {
     //sticks or switches. You find the percentages
     public int guess2 (int openedDoor) {
         //do this ...;
-        return -1;
+        return myInitialGuess;
     }
 }
