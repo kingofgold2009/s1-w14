@@ -67,15 +67,15 @@ public class Monty {
         if(doorWithCar != chosenDoor)
             return 6 - doorWithCar - chosenDoor;
         else {
-            int x = randoms.nextInt(2) + 1;
+            int x = randoms.nextInt(2) + 1; //might need to cut the 1
         if(chosenDoor == 1){
             return x + 1;
         }
         else if(chosenDoor == 2){
-            return 1;
+            return x*2 + 1;
         }
         else{
-            return x;
+            return x + 1;
         }
     }
         
